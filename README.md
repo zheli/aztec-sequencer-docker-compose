@@ -3,9 +3,10 @@ Docker Compose file for Aztec Sequencer in my local environment
 
 ## Steps
 1. Clone the repository
-2. Go into the folder and run `docker compose up -d`
-3. Register your validator at https://testnet.aztec.network/add-validator
-4. Check the queue at https://dashtec.xyz/queue
+1. Copy the `env.example` file to `.env` and fill in the values
+1. Go into the folder and run `docker compose up -d`
+1. Register your validator at https://testnet.aztec.network/add-validator
+1. Check the queue at https://dashtec.xyz/queue
 
 ## Runbooks
 ### Check node status
