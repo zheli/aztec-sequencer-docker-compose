@@ -19,7 +19,7 @@ services:
       - 40400:40400/udp
       - 8080:8080
     volumes:
-      - ./data/aztec-testnet/alpha-testnet/data/:/data
+      - ./alpha-testnet/data/:/data
     networks:
       - bridge
 
