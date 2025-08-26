@@ -20,9 +20,6 @@ services:
       - 8080:8080
     volumes:
       - ./alpha-testnet/data/:/data
-    networks:
-      - bridge
-
-networks:
-  bridge:
-    external: true
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
