@@ -5,12 +5,12 @@ services:
     image: aztecprotocol/aztec:latest
     restart: unless-stopped
     environment:
-      ETHEREUM_HOSTS: ${ETHEREDEN_HOSTS}
+      ETHEREUM_HOSTS: ${ETHEREUM_HOSTS}
       L1_CONSENSUS_HOST_URLS: ${L1_CONSENSUS_HOST_URLS}
       DATA_DIRECTORY: /data
       VALIDATOR_PRIVATE_KEY: ${VALIDATOR_PRIVATE_KEY}
       COINBASE: ${COINBASE}
-      P2P_IP: ${P2P_IP_ADDRESS}
+      P2P_IP: ${P2P_IP}
       LOG_LEVEL: debug
     entrypoint: >
       sh -c 'node --no-warnings /usr/src/yarn-project/aztec/dest/bin/index.js start --network alpha-testnet --node --archiver --sequencer'
