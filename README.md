@@ -1,2 +1,2 @@
 # aztec-sequencer-docker-compose
-Docker Compose file for Aztec Sequencer to use with a nomad node
+Docker Compose file for Aztec Sequencer in my local environment
