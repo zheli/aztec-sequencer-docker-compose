@@ -16,3 +16,4 @@ curl -s -X POST -H 'Content-Type: application/json' \
 http://localhost:8080 | jq -r ".result.proven.number"
 
 ```
+and compare the block number with the one in https://aztecscan.xyz/.
